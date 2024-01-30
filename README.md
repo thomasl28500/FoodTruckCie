@@ -6,7 +6,7 @@
   <!-- <a href="https://sportludique.netlify.app">Demo</a> -->
 </div>
 
-<h1 align="center">FoodTruck and Cie</h1>
+<h1 align="center">FoodTruck and Cie</h1><img src="/logo.jfif">
 
 <p align="center">
   <img alt="Github top language" src="https://img.shields.io/github/languages/top/thomasl28500/FoodTruckCie?color=56BEB8">
