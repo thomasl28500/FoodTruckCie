@@ -37,7 +37,7 @@
   <a href="#sparkles-caractéristiques">Caractéristiques</a> &#xa0; | &#xa0;
   <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
   <a href="#white_check_mark-prérequis">Prérequis</a> &#xa0; | &#xa0;
-  <a href="#checkered_flag-commencer">Commencer</a> &#xa0; | &#xa0;
+  <a href="#checkered_flag-installation">Installation</a> &#xa0; | &#xa0;
   <a href="#memo-auteurs">Auteurs</a>
 </p>
 
@@ -65,7 +65,7 @@ The following tools were used in this project:
 Avant de commencer :checkered_flag:, vous avez besoin d'avoir [Git](https://git-scm.com/downloads), [PHP](https://www.php.net/downloads) et d'un serveur [MySQL](https://dev.mysql.com/downloads/) d'installés.\
 Veuillez à bien modifier le fichier php.ini ce trouvant dans C:\php8 et de décommenter la ligne contenant ```#extension=pdo_mysql``` si cela n'est pas déjà fait.
 
-## :laptop: Installation ##
+## :checkered_flag: Installation ##
 
 ```bash
 # Cloner le projet
