@@ -67,6 +67,7 @@ Veuillez à bien modifier le fichier php.ini ce trouvant dans C:\php8 et de déc
 
 ## :checkered_flag: Installation ##
 
+### Pour commencer
 ```bash
 # Cloner le projet
 $ git clone https://github.com/thomasl28500/FoodTruckCie.git
@@ -76,26 +77,23 @@ $ cd FoodTruckCie
 
 # Install dependencies
 $ composer install
+```
 
-# Lancer le projet
+### Installation des dépendences
+```bash
+# Installation de Composer
+$ composer install
+
+# Installation de Doctrine
+$ composer require symfony/orm-pack
+$ composer require --dev symfony/maker-bundle
+```
+
+### Lancer le projet
+```bash
 $ symfony server:start
 
 # The server will initialize in the <http://localhost:8000>
-```
-
-
-### Installation des dépendances ###
-
-
-Installation de Composer
-```bash
-$ composer install
-```
-
-Installation de Doctrine
-```bash
-$ composer require symfony/orm-pack
-$ composer require --dev symfony/maker-bundle
 ```
 
 ## :memo: Auteurs ##
