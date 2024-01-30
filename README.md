@@ -74,9 +74,6 @@ $ git clone https://github.com/thomasl28500/FoodTruckCie.git
 
 # Accéder au projet
 $ cd FoodTruckCie
-
-# Install dependencies
-$ composer install
 ```
 
 ### Installation des dépendences
