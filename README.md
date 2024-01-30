@@ -45,11 +45,11 @@
 
 ## :dart: À propos ##
 
-FoodTruck and Cie est un site e-commerce dans le domaine du sport. Ce projet a été réalisé à l'aide de Symfony, un Framework PHP.
+FoodTruck and Cie est une application de réservation dans le domaine de la restauration destinée . Ce projet a été réalisé à l'aide de Symfony, un Framework PHP.
 
 ## :sparkles: Caractéristiques ##
 
-:heavy_check_mark: Authentification avec rôles;\
+:heavy_check_mark: Feature 1;\
 :heavy_check_mark: Feature 2;\
 :heavy_check_mark: Feature 3;
 
@@ -65,13 +65,13 @@ The following tools were used in this project:
 Avant de commencer :checkered_flag:, vous avez besoin d'avoir [Git](https://git-scm.com/downloads), [PHP](https://www.php.net/downloads) et d'un serveur [MySQL](https://dev.mysql.com/downloads/) d'installés.\
 Veuillez à bien modifier le fichier php.ini ce trouvant dans C:\php8 et de décommenter la ligne contenant ```#extension=pdo_mysql``` si cela n'est pas déjà fait.
 
-## :checkered_flag: Commencer ##
+## :laptop: Installation ##
 
 ```bash
 # Cloner le projet
 $ git clone https://github.com/thomasl28500/FoodTruckCie.git
 
-# Accéder
+# Accéder au projet
 $ cd FoodTruckCie
 
 # Install dependencies
@@ -83,19 +83,9 @@ $ symfony server:start
 # The server will initialize in the <http://localhost:8000>
 ```
 
-### Récupérer le projet ###
-
-Cloner le projet
-```bash
-$ git clone https://github.com/thomasl28500/FoodTruckCie.git
-```
 
 ### Installation des dépendances ###
 
-Accéder au dossier
-```bash
-$ cd FoodTruckCie
-```
 
 Installation de Composer
 ```bash
