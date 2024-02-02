@@ -37,8 +37,10 @@
   ======================================================== -->
 </head>
 
-<!-- ======= Header ======= -->
-<header id="header" class="header fixed-top d-flex align-items-center">
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
     <div class="container d-flex align-items-center justify-content-between">
 
       <a href="index.html" class="logo d-flex align-items-center me-auto me-lg-0">
@@ -49,18 +51,18 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="index.html">Accueil</a></li>
+          <li><a href="#hero">Accueil</a></li>
           <li><a href="apropos.html">A propos</a></li>
           <li class="dropdown"><a href="#"><span>Foodtrucks</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
-              <li><a href="gourmandise.html">La gourmandise Normande</a></li>
-              <li><a href="#">Sushi sur Roues</a></li>
-              <li><a href="#">Saveurs du Moyen-Orient</a></li>
-              <li><a href="#">Burger Nomad</a></li>
-              <li><a href="#">Tacos Tropicaux</a></li>
+              <li><a href="gourmandise.html">La Gourmandise Nomade</a></li>
+              <li><a href="sushi.html">Sushi sur Roues</a></li>
+              <li><a href="orient.html">Saveurs du Moyen-Orient</a></li>
+              <li><a href="burger.html">Burger Nomad</a></li>
+              <li><a href="tacos.html">Tacos Tropicaux</a></li>
             </ul>
           </li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#footer">Contact</a></li>
         </ul>
       </nav><!-- .navbar -->
 
@@ -71,49 +73,42 @@
     </div>
   </header><!-- End Header -->
 
-<body>
-     <!-- ======= About Section ======= -->
-    <section id="about" class="about">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-header">
-          <p>A propos de <span>Nous</span></p>
-        </div>
-
-        <div class="row gy-4">
-          <div class="col-lg-7 position-relative about-img" style="background-image: url(assets/img/about.jpg) ;" data-aos="fade-up" data-aos-delay="150">
-          </div>
-          <div class="col-lg-5 d-flex align-items-end" data-aos="fade-up" data-aos-delay="300">
-            <div class="content ps-0 ps-lg-5">
-              <ul>
-                <li><i class="bi bi-check2-all"></i> Bienvenue sur Foodtruck & CIE - Votre destination gourmande en mouvement !
-
-                    Découvrez une expérience culinaire unique avec notre sélection exceptionnelle de food trucks. Nous réunissons les meilleurs chefs ambulants de la région pour satisfaire toutes vos envies gourmandes, que ce soit pour un déjeuner rapide, une pause gourmande entre amis ou un dîner savoureux.
-                    
-                    Explorez une variété de cuisines alléchantes, des saveurs exotiques aux classiques réconfortants. Notre plateforme conviviale vous permet de localiser facilement les food trucks à proximité, de consulter leurs menus et de passer votre commande en toute simplicité.
-                    
-                    Avec Foodtruck & CIE, découvrez la diversité des options culinaires mobiles et suivez les food trucks préférés de votre région. Que vous soyez amateur de tacos, de burgers gourmet ou de plats végétariens, nous avons tout pour satisfaire votre appétit.
-                    
-                    N'attendez plus pour vivre une aventure gustative en mouvement. Trouvez, commandez et dégustez avec Foodtruck & CIE - là où la cuisine de rue devient une expérience gastronomique.</li>
-              </ul>
-              <div class="position-relative mt-4">
-                <img src="assets/img/about-2.jpg" class="img-fluid" alt="">
-                <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox play-btn"></a>
-              </div>
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="hero d-flex align-items-center section-bg">
+    <div class="container">
+      <div class="row justify-content-between gy-5">
+        <div class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center align-items-center align-items-lg-start text-center text-lg-start">
+          <h2 data-aos="fade-up">Se connecter<br></h2>
+          <form data-aos="fade-up" style="width:100%;" action="index.html">
+            <div class="form-group">
+              <label for="exampleInputEmail1">Adresse mail :</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
             </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Mot de passe :</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <button type="submit" class="btn btn-book-a-table mt-3">Se connecter</button>
+          </form>
+          <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
           </div>
         </div>
-
+        <div class="col-lg-5 order-1 order-lg-2 text-center text-lg-start">
+          <img src="assets/img/hero-img.png" class="img-fluid" alt="" data-aos="zoom-out" data-aos-delay="300">
+        </div>
       </div>
-    </section>
-<footer id="footer" class="footer">
+    </div>
+  </section><!-- End Hero Section -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
 
     <div class="container">
       <div class="row gy-3 d-flex justify-content-center">
         <div class="col-lg-3 col-md-6 d-flex">
           <i class="bi bi-geo-alt icon"></i>
           <div>
-            <h4>Adresse</h4>
+            <a href="#"></a><h4>Adresse</h4>
             <p>
               5Bis Av. Marcel Proust,<br>
               28000 Chartres <br>
